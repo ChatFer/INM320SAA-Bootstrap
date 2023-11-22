@@ -77,7 +77,6 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
 }
 
 .trend-row {
-  /* background: rgb(179, 223, 223); */
   display: flex;
   padding: 10 10 10 10;
   padding: 2%;
@@ -97,10 +96,8 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
   justify-content: space-between;
   width: 100%;
 }
-
-
     
-/* On small screens, set height to 'auto' for the grid */
+/*Media Query*/
 @media screen and (min-width:767px){
 
 
