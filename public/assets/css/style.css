@@ -1,0 +1,107 @@
+/* MULISH FONT */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #F7F8FC !important;
+}
+
+header {
+  margin-top: 12px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.side-nav {
+  float: right;
+}
+
+.click-card:hover div{
+  border: 1px solid #3751FF !important;
+  cursor: pointer;
+}
+
+.click-card:hover p {
+  color: #3751FF !important;
+}
+
+.profile_pic {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  border: solid 3px lightgray;
+}
+
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.create {
+  color: #C5C7CD;
+}
+
+.hover-nav:hover {
+  background-color: #3f4049;
+}
+
+.hover-nav:hover p {
+  color: #DDE2FF;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.logo-name {
+  font-size: 80%;
+  display: contents;
+}
+
+.logo-icon {
+  margin-left: 8px;
+}
+
+.additional-info {
+  border-left: solid 1px #DFE0EB;
+}
+
+.overview {
+  background: #9FA2B4;
+}
+
+.trend-row {
+  /* background: rgb(179, 223, 223); */
+  display: flex;
+  padding: 10 10 10 10;
+  padding: 2%;
+
+}
+
+.graph {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+    
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (min-width:767px){
+
+
+}
