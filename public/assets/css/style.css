@@ -68,6 +68,7 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
   margin-left: 8px;
 }
 
+
 .additional-info {
   border-left: solid 1px #DFE0EB;
 }
@@ -96,9 +97,15 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
   justify-content: space-between;
   width: 100%;
 }
-    
+
+.badge-default {
+  color: #9699a6 !important;
+  background-color: #e4e4e4 !important;
+}
+
 /*Media Query*/
-@media screen and (min-width:767px){
+@media screen and (min-width:768px){
+
   
 
 }
