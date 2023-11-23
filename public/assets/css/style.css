@@ -98,21 +98,7 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
 }
     
 /*Media Query*/
-@media (max-width: 767px) {
-  .navbar {
-      width: 64px;
-  }
+@media screen and (min-width:767px){
+  
 
-  .navbar .nav-link span {
-      display: none;
-  }
-
-  .navbar .nav-link .logo {
-      width: 32px;
-  }
-}
-
-/* Add transition for smoother animation */
-.navbar {
-  transition: width 0.3s;
 }
